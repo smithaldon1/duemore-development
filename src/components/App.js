@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ import AccountPage from './Account';
 import AdminPage from './Admin';
 
 import * as ROUTES from '../constants/routes';
+// eslint-disable-next-line
 import { withFirebase } from '../services';
 
 import { withAuthentication } from '../session';

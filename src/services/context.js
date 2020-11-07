@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { Component } from 'react';
 
 const FirebaseContext = React.createContext(null);
